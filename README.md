@@ -5,5 +5,6 @@ Today i decided to fix a problem i had with it, might update with more features,
 
 Not made for any production purpose, just for practise. 
 
+![creating a first page](https://i.imgur.com/7ecpzxW.png)
 
 Originally created: April 2023
