@@ -1,0 +1,15 @@
+body {
+    background-color:#ffffff;
+    color: black;
+}
+
+footer {
+    background-color: #c7c4c4;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
