@@ -39,14 +39,20 @@
         var dropdownCSS = document.getElementById("css");
         var hiddenField = document.getElementById("customCSSDiv");
         dropdownCSS.addEventListener("change", function () {
+
             if (dropdownCSS.value === "customCSS") {
                 hiddenField.style.display = "block";  // Show the field
+                var editor = CodeMirror.fromTextArea(document.getElementById("customCSSField"), {
+                    mode: "css",
+                    theme: "default",
+                    lineNumbers: true
+                });
             } else {
                 hiddenField.style.display = "none";   // Hide the field
             }
         });
         var editor = CodeMirror.fromTextArea(document.getElementById("content"), {
-            mode: "xml",
+            mode: "htmlmixed",
             theme: "default",
             lineNumbers: true
         });
