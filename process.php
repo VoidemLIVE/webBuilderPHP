@@ -51,7 +51,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // CSS FILE
   if ($cssDec == "customCSS") {
     $css = fopen("Sites/" . $dirname . "/" . $cssFile, "w");
-    fwrite($css, $customCSS);
+    fwrite($css, $customCSS . "\n");
+    fwrite($css,"footer {\n");
+    fwrite($css,"text-align: center;\n");
+    fwrite($css,"background-color: #333;\n");
+    fwrite($css,"color: #fff;\n");
+    fwrite($css,"padding: 10px;\n");
+    fwrite($css,"position: fixed;\n");
+    fwrite($css,"bottom: 0;\n");
+    fwrite($css,"left: 0;\n");
+    fwrite($css,"width: 100%;\n");
+    fwrite($css,"}\n");
+    fclose($css);
   }
     echo "Your webpage has been created!";
     echo "<a href='Sites/$dirname/$filename'>Link</a>";
