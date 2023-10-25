@@ -5,6 +5,14 @@ Today i decided to fix a problem i had with it, might update with more features,
 
 Not made for any production purpose, just for practise. 
 
-![creating a first page](https://i.imgur.com/7ecpzxW.png)
+![creating a first page](https://i.imgur.com/KZpvAWb.png)
+
+
+(If hosting locally & on port 3000)
+If you have not included a footer, you can remove the page by going to:
+localhost:3000/delete.php?id=Website-Maker
+Do not include the "DIR" when deleting a page
+
 
 Originally created: April 2023
+Edited: October 2023
