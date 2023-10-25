@@ -9,10 +9,14 @@ Not made for any production purpose, just for practise.
 
 
 (If hosting locally & on port 3000)
+<br>
 If you have not included a footer, you can remove the page by going to:
+<br>
 localhost:3000/delete.php?id=Website-Maker
+<br>
 Do not include the "DIR" when deleting a page
-
-
+<br>
+<br>
 Originally created: April 2023
+<br>
 Edited: October 2023
